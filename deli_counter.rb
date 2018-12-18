@@ -18,5 +18,5 @@ end
 def take_a_number(deli_line, name)
   deli_line << name
   position = deli_line.size
-  "Welcome, #{name}. You are number #{position} in line."
+  puts "Welcome, #{name}. You are number #{position} in line."
 end
