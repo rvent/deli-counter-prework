@@ -6,7 +6,7 @@ def line(deli_line)
     puts line_description
   else
     deli_line.each_with_index do |person, place|
-      line_description += ": #{place + 1}: #{person}"
+      line_description += ": #{place + 1}. #{person}"
     end
   end
   line_description
