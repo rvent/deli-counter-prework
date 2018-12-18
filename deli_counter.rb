@@ -20,3 +20,12 @@ def take_a_number(deli_line, name)
   position = deli_line.size
   puts "Welcome, #{name}. You are number #{position} in line."
 end
+
+def now_serving(deli_line)
+  if deli_line.size == 0
+    puts "There is nobody waiting to be served."
+  else
+    next_up = deli_line.shift
+    puts "Currently serving #{next_up}."
+  end
+end
