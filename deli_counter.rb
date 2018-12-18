@@ -9,7 +9,7 @@ def line(deli_line)
     deli_line.each_with_index do |person, place|
       positions << "#{place + 1}. #{person}"
     end
-    postion = positions.join(" ")
+    position = positions.join(" ")
     line_description += position
   end
   puts line_description
